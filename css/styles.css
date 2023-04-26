@@ -52,7 +52,7 @@ nav {
 }
 .menu {
     display: flex;
-        font-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -66,8 +66,8 @@ nav {
     text-decoration: none;
 }
 .address-list {
-display: flex;
-gap: 40px;
+    display: flex;
+    gap: 40px;
 }
 .link-address {
     display: block;
@@ -88,9 +88,11 @@ gap: 40px;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding: 24px 0;
-    margin-right: 76px;
-}
+   }
+   header .logo {
+      margin-right: 76px;
+   }
+ 
 .link:hover,
 .link:focus {
     color: var(--OCEAN);
@@ -117,13 +119,22 @@ gap: 40px;
     letter-spacing: 0.02em;
     color: var(--NAVY_BLUE);
     margin-bottom: 8px;
-    text-align: center;
 }
 .features {
     padding: 120px 0 120px;
 }
-.header-feature{
- margin-bottom: 8px;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin-bottom: 8px;
 }
 
 .features-list {
@@ -134,21 +145,17 @@ gap: 40px;
 
 .features-item {
     font-weight: 500;
-    width: 264px;
     flex-basis: calc((100% - 72px) / 4);    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 .feature-prg {
     line-height: 1.5;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--SLATE);
-    margin-bottom: 8px;
-    text-align: center;
 }
 .projects {
     padding-bottom: 120px; 
@@ -177,7 +184,7 @@ gap: 40px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-        margin: 0 auto;
+    margin: 0 auto;
 }
 .button {
     display: block; 
@@ -219,15 +226,16 @@ gap: 40px;
  }
  .employees-text {
     padding: 32px 16px;
+    text-align: center;
  }
 
 .bottom {
     background-color: var(--NAVY_BLUE);
     padding: 100px 0;
 }
-    .bottom .logo {
-        display: inline-block;
-        margin-bottom: 16px;
+.bottom .logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /* portfolio */
@@ -246,7 +254,6 @@ gap: 40px;
     margin-bottom: 72px;
     gap: 24px;
 }
-
 .filter-btn {
     font-weight: 500;
     font-size: 16px;
@@ -260,29 +267,24 @@ gap: 40px;
     border-radius: 4px;
     padding: 12px 24px;
 }
-
 .active:active {
     color: var(--OCEAN);
 }
-
 .portfolio-card {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;   
     column-gap: 24px
 }
-
 .cart-text {
     padding: 32px 16px;
     border: 1px solid var(--CORNFLOWER);
     border-top: none;
 }
-
 .portfolio-item {
     flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-header {
-    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -290,14 +292,10 @@ gap: 40px;
     color: var(--NAVY_BLUE);
     margin-bottom: 8px;
 }
-
 .portfolio-prg {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE);
-    
 }
-
-        
