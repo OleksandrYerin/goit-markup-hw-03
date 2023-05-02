@@ -172,6 +172,7 @@ padding: 188px 0px;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--SLATE);
+    margin-bottom: 8px;
 }
 .feature-conteiner {
     display: flex;
@@ -191,6 +192,8 @@ padding: 188px 0px;
 }
 .social-item {
     display: flex;
+    width: 40px;
+    height: 40px;
 
 }
 .social {
