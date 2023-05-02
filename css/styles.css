@@ -6,6 +6,7 @@
     --OCEAN: #404BBF;
     --CLOUD: #F4F4FD;
     --SLATE: #434455;
+    --BORDER-CUSTOMER: #8E8F99;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -184,6 +185,31 @@ padding: 188px 0px;
 .feature-icons {
     object-fit: cover;
 }
+.social-icons {
+    display: flex;
+    gap: 24px;
+}
+.social-item {
+    display: flex;
+
+}
+.social {
+    border-radius: 50%;
+}
+.social-link {
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+background-color: var(--IRIS);
+border-radius: 50%;
+}
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--OCEAN);
+}
+
 .projects {
     padding-bottom: 120px; 
 }
@@ -257,10 +283,21 @@ padding: 188px 0px;
     text-align: center;
  }
 
- customers-list-icon{
+ /* customers-list-icon{ */
     
+ .customer-card {
+    display: flex;
  }
- 
+
+ .customers-link {
+    justify-content: center;
+    gap: 24px;
+    border: 1px var(--BORDER-CUSTOMER);
+    width: 168px;
+    height: 88;
+    justify-content: center;
+    align-content: center;
+ }
 .bottom {
     background-color: var(--NAVY_BLUE);
     padding: 100px 0;
@@ -269,8 +306,7 @@ padding: 188px 0px;
     display: inline-block;
     margin-bottom: 16px;
 }
-sudo apt update
-sudo apt install xclip
+
  /**
    |============================
    | portfolio 
