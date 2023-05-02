@@ -289,10 +289,21 @@ border-radius: 50%;
     display: flex;
  }
 
- .customers-link {
+ .customers-item {
+    color: var(--BORDER-CUSTOMER);
     justify-content: center;
     gap: 24px;
     border: 1px var(--BORDER-CUSTOMER);
+    width: 168px;
+    height: 88;
+    justify-content: center;
+    align-content: center;
+ }
+
+ .customers-link {
+    justify-content: center;
+    gap: 24px;
+    border: 1px index.html
     width: 168px;
     height: 88;
     justify-content: center;
